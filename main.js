@@ -49,7 +49,7 @@ function colorGrid() {
   }
 }
 
-function resetGrid() {
+function resetBoard() {
   let grids = document.querySelectorAll(".board div");
   grids.forEach((div) => (div.style.backgroundColor = "yellow"));
 }
